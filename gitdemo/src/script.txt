@@ -28,5 +28,6 @@ add to reactor
 install reactor
 
 Step 3
-
+add developer connection
+add distribution management
 maven release

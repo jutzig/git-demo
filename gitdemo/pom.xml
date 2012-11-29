@@ -42,6 +42,15 @@
 		<developerConnection>scm:git:https://github.com/jutzig/git-demo.git</developerConnection>
 	</scm>
 
+
+	<distributionManagement>
+		<repository>
+			<id>my-repo</id>
+			<name>my-repo</name>
+			<url>file://D:/temp/mavenrepo</url>
+		</repository>
+	</distributionManagement>
+
 	<modules>
 		<module>../helloworld</module>
 	</modules>
