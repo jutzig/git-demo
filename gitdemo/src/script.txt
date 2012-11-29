@@ -1,3 +1,5 @@
+Step 1
+
 - github account
 - clone demo
 - clone in eclipse
@@ -9,3 +11,22 @@
 - commit
 - push to remote
 - look in github
+- explain pull, fetch, merge
+- optional try fetch from different remote
+- optional stash, rest
+==================================
+
+Step 2
+
+maven install
+add failing test
+maven install
+explain lifecycle
+add javadoc plugin
+move javadoc to parent
+add to reactor
+install reactor
+
+Step 3
+
+maven release
