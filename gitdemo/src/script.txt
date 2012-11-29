@@ -1,0 +1,11 @@
+- github account
+- clone demo
+- clone in eclipse
+- create topic branch
+- create first unit test
+- add junit to parent pom
+- amend commit (add test scope)
+- implement test
+- commit
+- push to remote
+- look in github
