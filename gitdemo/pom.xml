@@ -37,6 +37,11 @@
 		</dependency>
 	</dependencies>
 
+
+	<scm>
+		<developerConnection>scm:git:https://github.com/jutzig/git-demo.git</developerConnection>
+	</scm>
+
 	<modules>
 		<module>../helloworld</module>
 	</modules>
