@@ -31,3 +31,15 @@ Step 3
 add developer connection
 add distribution management
 maven release
+
+Step 4
+configure BND in helloworld
+change manifest output location
+move BND config up to parent
+
+Step 5
+create new project
+create interface and implementation
+create greater in helloworld
+configure SCR
+run
