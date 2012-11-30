@@ -49,7 +49,7 @@
 
 
 	<scm>
-		<developerConnection>scm:git:git@github.com:jutzig/git-demo.git</developerConnection>
+		<developerConnection>scm:git:git@github.com/git-demo.git</developerConnection>
 	</scm>
 
 
