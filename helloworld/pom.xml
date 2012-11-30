@@ -8,4 +8,5 @@
 		<relativePath>../gitdemo</relativePath>
 	</parent>
   <artifactId>helloworld</artifactId>
+  <packaging>bundle</packaging>
 </project>
