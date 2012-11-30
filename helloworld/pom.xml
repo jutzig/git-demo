@@ -3,9 +3,14 @@
 	<parent>
 		<groupId>org.example</groupId>
 		<artifactId>gitdemo</artifactId>
-		<version>0.0.2</version>
+		<version>0.0.3-SNAPSHOT</version>
 		<relativePath>../gitdemo</relativePath>
 	</parent>
   <artifactId>helloworld</artifactId>
   <packaging>bundle</packaging>
+
+  	<scm>
+		<developerConnection>scm:git:git@github.com:jutzig/git-demo.git</developerConnection>
+	</scm>
+
 </project>
