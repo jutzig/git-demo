@@ -56,7 +56,7 @@
 		<repository>
 			<id>my-repo</id>
 			<name>my-repo</name>
-			<url>file://D:/temp/mavenrepo</url>
+			<url>file:///home/joe/tmp/demorepo</url>
 		</repository>
 	</distributionManagement>
 
