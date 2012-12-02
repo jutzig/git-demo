@@ -40,6 +40,18 @@ move BND config up to parent
 Step 5
 create new project
 create interface and implementation
+run maven build
+examine manifest exports (impl)
+Share with Git
+
+Step 6
 create greater in helloworld
 configure SCR
+run
+
+
+Step 7
+create time greeter
+create time service
+consume time service
 run
