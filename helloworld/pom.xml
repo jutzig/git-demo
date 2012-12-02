@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.example</groupId>
@@ -6,11 +7,44 @@
 		<version>0.0.4-SNAPSHOT</version>
 		<relativePath>../gitdemo</relativePath>
 	</parent>
-  <artifactId>helloworld</artifactId>
-  <packaging>bundle</packaging>
+	<artifactId>helloworld</artifactId>
+	<packaging>bundle</packaging>
 
-  	<scm>
+	<scm>
 		<developerConnection>scm:git:git@github.com:jutzig/git-demo.git</developerConnection>
 	</scm>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-scr-plugin</artifactId>
+				<version>1.8.0</version>
+				<executions>
+					<execution>
+						<id>generate-ds</id>
+						<phase>process-classes</phase>
+						<goals>
+							<goal>scr</goal>
+						</goals>
+						<inherited>false</inherited>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.example</groupId>
+			<artifactId>greeter</artifactId>
+			<version>0.0.4-SNAPSHOT</version>
+			<type>bundle</type>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.scr.annotations</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+	</dependencies>
 </project>

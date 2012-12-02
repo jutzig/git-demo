@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="org.example.HelloWord">
+        <implementation class="org.example.HelloWord"/>
+        <service servicefactory="false">
+            <provide interface="org.example.greeter.service.Greeter"/>
+        </service>
+        <property name="service.pid" value="org.example.HelloWord"/>
+    </scr:component>
+</components>

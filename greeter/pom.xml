@@ -8,4 +8,32 @@
   </parent>
   <artifactId>greeter</artifactId>
   <packaging>bundle</packaging>
+  
+  
+  	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-scr-plugin</artifactId>
+				<version>1.8.0</version>
+				<executions>
+					<execution>
+						<id>generate-ds</id>
+						<phase>process-classes</phase>
+						<goals>
+							<goal>scr</goal>
+						</goals>
+						<inherited>false</inherited>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+  	<dependencies>
+  		<dependency>
+  			<groupId>org.apache.felix</groupId>
+  			<artifactId>org.apache.felix.scr.annotations</artifactId>
+  			<version>1.7.0</version>
+  		</dependency>
+  	</dependencies>
 </project>
