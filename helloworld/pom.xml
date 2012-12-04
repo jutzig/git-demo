@@ -4,6 +4,16 @@
     <groupId>org.example</groupId>
     <artifactId>gitdemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../gitdemo</relativePath>
   </parent>
+
   <artifactId>helloworld</artifactId>
+
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.0</version>
+  	</dependency>
+  </dependencies>
 </project>
