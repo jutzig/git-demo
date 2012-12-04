@@ -8,11 +8,11 @@ import org.junit.Test;
 public class TestHelloWorld extends TestCase
 {
 
-	@Test
-	public void testSayHello()
-	{
-		fail("This should fail!");
-	}
+//	@Test
+//	public void testSayHello()
+//	{
+//		fail("This should fail!");
+//	}
 
 	@Test
 	public void testSayHello2()

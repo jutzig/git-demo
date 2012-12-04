@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1354621490911
+Build-Jdk: 1.6.0_26
+Built-By: Martin Marchev
+Bundle-ManifestVersion: 2
+Bundle-Name: greeter
+Bundle-SymbolicName: org.example.greeter
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.example.greeter;version="0.0.1.SNAPSHOT",org.example
+ .greeter.impl;uses:="org.example.greeter";version="0.0.1.SNAPSHOT"
+Tool: Bnd-1.50.0
