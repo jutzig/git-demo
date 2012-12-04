@@ -8,4 +8,6 @@
   <groupId>org.example</groupId>
   <artifactId>helloworld</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  hello
 </project>
